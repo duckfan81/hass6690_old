@@ -1,0 +1,23 @@
+- id: '1575882184913'
+  alias: Turn on she shed climate
+  description: ''
+  trigger:
+  - at: 06:30
+    platform: time
+  condition:
+  - condition: state
+    entity_id: person.brendan
+    state: home
+  action:
+  - alias: ''
+    data:
+      entity_id: climate.sheshed
+    service: climate.turn_on
+- alias: Set theme at startup
+  trigger:
+  - platform: homeassistant
+    event: start
+  action:
+    service: frontend.set_theme
+    data:
+      name: teal

@@ -1,0 +1,6 @@
+light.zooz_unknown_type_b112_id_261c_level:
+  ignored: false
+  polling_intensity: 0
+switch.linear_nortek_security_control_llc_ws15z_1_wall_switch_switch:
+  ignored: false
+  polling_intensity: 200

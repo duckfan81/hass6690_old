@@ -1,0 +1,4 @@
+tuya:
+  username: !secret email
+  password: !secret normal_pw
+  country_code: 1

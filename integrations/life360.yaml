@@ -1,0 +1,13 @@
+life360:
+  accounts:
+    - username: !secret email
+      password: !secret simple_pw
+  driving_speed: 10
+  interval_seconds: 10
+  max_update_wait:
+    minutes: 45
+  show_as_state:
+    - driving
+    - moving
+  members:
+    exclude: ["Justin Galloway", "darrell galloway"]

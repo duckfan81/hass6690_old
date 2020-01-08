@@ -1,0 +1,3 @@
+vesync:
+  username: !secret email
+  password: !secret new_pw
