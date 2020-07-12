@@ -1,3 +1,7 @@
 gpodder:
   username: !secret gpodder_un
   password: !secret gpodder_pw
+  sensor:
+    - enabled: true
+      name: gPodder
+      device: homeassistant
