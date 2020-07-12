@@ -1,0 +1,8 @@
+platform: generic_thermostat
+name: SheShed
+heater: switch.sheshed_heater
+target_sensor: sensor.sheshed_temperature
+target_temp: 70
+away_temp: 32
+min_cycle_duration:
+  minutes: 2

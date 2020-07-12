@@ -1,0 +1,4 @@
+platform: generic
+name: FrontPorch
+still_image_url: !secret Camera_fp_URL
+stream_source: !secret Camera_fp_Source 

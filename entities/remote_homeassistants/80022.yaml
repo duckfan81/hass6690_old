@@ -1,0 +1,3 @@
+#  - host: hass.brendangalloway.com
+#    access_token: !secret 80022_longlivedaccesstoken
+#    entity_prefix: "80022_"

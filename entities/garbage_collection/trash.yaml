@@ -1,0 +1,4 @@
+name: trash # Each week on Monday
+frequency: "weekly"
+collection_days:
+  - mon

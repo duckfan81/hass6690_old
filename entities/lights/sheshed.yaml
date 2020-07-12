@@ -1,0 +1,3 @@
+platform: switch
+name: SheShed Light
+entity_id: switch.linear_nortek_security_control_llc_ws15z_1_wall_switch_switch

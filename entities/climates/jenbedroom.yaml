@@ -1,0 +1,10 @@
+platform: dualmode_generic
+name: JenBedroom
+heater: switch.jens_bedroom_heater
+cooler: switch.jens_bedroom_ac
+target_sensor: sensor.jen_bedroom_temperature
+away_temp: 60
+cold_tolerance: 2
+hot_tolerance: 2
+min_cycle_duration:
+  minutes: 2

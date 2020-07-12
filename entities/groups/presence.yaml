@@ -1,0 +1,6 @@
+  Household:
+    name: Household
+    entities:
+      - Person.Jennifer
+      - Person.Brendan
+#    - group.house_guest

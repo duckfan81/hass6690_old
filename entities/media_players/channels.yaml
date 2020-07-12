@@ -1,0 +1,3 @@
+  - platform: channels
+    name: Channels
+    host: 10.223.73.208

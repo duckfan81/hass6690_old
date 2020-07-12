@@ -1,0 +1,9 @@
+  - platform: androidtv
+    name: Jens_Bedroom_Fire_TV
+    device_class: firetv
+    host: 10.223.73.165
+    adb_server_ip: 127.0.0.1
+  - platform: androidtv
+    name: Alex_Bedroom_Fire_TV
+    host: 10.223.73.168
+    adb_server_ip: 127.0.0.1

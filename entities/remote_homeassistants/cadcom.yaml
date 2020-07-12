@@ -1,0 +1,3 @@
+#  - host: hass.cadcom.us
+#    access_token: !secret cadcom_longlivedaccesstoken
+#    entity_prefix: "cadcom_"
